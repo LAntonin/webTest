@@ -1,0 +1,79 @@
+@font-face {
+	font-family: '3Dumb';
+	src: url('3Dumb.ttf');
+}
+
+@font-face {
+	font-family: '2Dumb';
+	src: url('2Dumb.ttf');
+}
+
+h1
+{
+	text-align: center;
+}
+
+h1 a
+{
+	font-family: '3Dumb';
+	font-style: italic;
+	color: red;
+	font-size: 80px;
+}
+
+h2
+{
+	font-family: '2Dumb';
+	color: purple;
+}
+
+footer
+{
+	font-family: '2Dumb', Arial;
+}
+
+#grille img
+{
+	border: 2px solid black;
+	padding: 0px;
+	margin: auto;
+}
+
+#conteneurGrille
+{
+	max-height: 1500px;
+	overflow: scroll;
+	display: flex;
+	margin: auto;
+	justify-content: space-around;
+}
+
+#reset
+{
+	color: black;
+	border: 1px solid lightgray;
+	background-color: lightgray;
+	text-decoration-line: none;
+}
+
+.resultat
+{
+	font-size: 20px;
+	font-family: '2Dumb';
+	text-align: center;
+}
+
+#perdu
+{
+	color: red;
+}
+
+#gagne
+{
+	color: green;
+}
+
+.warning
+{
+	color: red;
+}
