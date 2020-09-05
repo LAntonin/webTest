@@ -19,6 +19,7 @@
     <div id="global">
       <header>
         <h1><a title="Créé par Antonin Lyaët avec HTML5 et PHP"><?= $titre ?></a></h1>
+        <div id="sfck36gabd8k38zlwkmq8kretpfndscze3n"></div><script type="text/javascript" src="https://counter3.stat.ovh/private/counter.js?c=k36gabd8k38zlwkmq8kretpfndscze3n&down=async" async></script><br><a href="https://www.assoclub.fr">association comptabilité</a><noscript><a href="https://www.compteurdevisite.com" title="compteur de visite"><img src="https://counter3.stat.ovh/private/compteurdevisite.php?c=k36gabd8k38zlwkmq8kretpfndscze3n" border="0" title="compteur de visite" alt="compteur de visite"></a></noscript>
       </header>
       <form>
         <?php if(isset($_SESSION['tailleY'], $_SESSION['tailleI'], $_SESSION['nbBombe'])) : ?>
